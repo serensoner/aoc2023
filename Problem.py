@@ -8,10 +8,10 @@ class ProblemClass:
     def _solve(self, inp: str) -> str:
         pass
 
-    def _solve_p1(self, inp: str) -> str:
+    def _solve_p1(self, inp: str) -> int:
         return self._solve(inp)
 
-    def solve(self, part: str) -> str:
+    def solve(self, part: str) -> int:
         with open(f'inputs/{self.__class__.__name__}_input.txt') as f:
             inp = f.read()
 
