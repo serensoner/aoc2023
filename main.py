@@ -1,8 +1,8 @@
-from p9 import Problem9
+from p11 import Problem11
 
 
-p9 = Problem9()
-p9.test('1')
-p9.solve('1')
-p9.test('2')
-p9.solve('2')
+p = Problem11()
+p.test('1')
+p.solve('1')
+p.test('2')
+p.solve('2')
